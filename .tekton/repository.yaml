@@ -1,0 +1,9 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rhdh-demo
+  namespace: rhtap
+spec:
+  url: github.com?owner=flacatus&repo=rhdh-demo
+
+  

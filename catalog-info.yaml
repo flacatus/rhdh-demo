@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "rhdh-demo"
+  tags:
+    - ssc
+    - nodejs
+    - sbom 
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
